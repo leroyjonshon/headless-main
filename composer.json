@@ -1,5 +1,5 @@
 {
-    "name": "headless-main",
+    "name": "leroyjonshon/headless-main",
     "description": "Installs and configures modules for headless and the Gin admin theme.",
     "keywords": ["recipe", "Drupal recipes", "drupal recipe"],
     "type": "drupal-recipe",
