@@ -1,0 +1,29 @@
+{
+    "name": "headless-main",
+    "description": "Installs and configures modules for headless and the Gin admin theme.",
+    "keywords": ["recipe", "Drupal recipes", "drupal recipe"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/admin_toolbar": "*",
+        "drupal/gin": "*",
+        "drupal/gin_login": "*",
+        "drupal/gin_toolbar": "*",
+        "drupal/jsonapi_extras": "*",
+        "drupal/jsonapi_image_styles": "*",
+        "drupal/jsonapi_permission_access": "*",
+        "drupal/jsonapi_resources": "*",
+        "drupal/key_auth": "*",
+        "drupal/login_security": "*",
+        "drupal/openapi": "*",
+        "drupal/openapi_jsonapi": "*",
+        "drupal/openapi_ui": "*",
+        "drupal/openapi_ui_redoc": "*",
+        "drupal/paragraphs": "*",
+        "drupal/password_policy": "*",
+        "drupal/seckit": "*",
+        "drupal/security_review": "*",
+        "drupal/restui": "*",
+        "drupal/simple_oauth": "*"
+    }
+}
