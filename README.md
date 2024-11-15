@@ -18,6 +18,6 @@ composer require leroyjonshon/headless-main
 
 Since container php
 ```bash
-php core/scripts/drupal recipe recipe/custom/headless-main -v
+php core/scripts/drupal recipe recipes/headless-main -v
 ```
 ---
