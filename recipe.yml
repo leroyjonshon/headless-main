@@ -71,9 +71,6 @@ config:
         region: header
         weight: -5
         settings.secondary: true
-    block.block.gin_tools:
-      simple_config_update:
-        status: false
     # Update the admin theme to Gin in Theme settings.
     system.theme:
       simple_config_update:
