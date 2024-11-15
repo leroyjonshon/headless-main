@@ -53,6 +53,22 @@ config:
       - block.block.gin_page_title
       - block.block.gin_primary_local_tasks
     gin_login: '*'
+  add:
+    # Configuración del bloque Gin Admin
+    block.block.gin_admin:
+      langcode: en
+      status: true
+      dependencies:
+        module:
+          - gin
+        theme:
+          - gin
+      id: gin_admin
+      theme: gin
+      region: sidebar_first
+      weight: 0
+      settings:
+        id: gin_admin
   actions:
     # Set and unset Gin blocks.
     block.block.gin_admin:
